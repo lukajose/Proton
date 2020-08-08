@@ -1,0 +1,12 @@
+.line {
+    fill: none;
+    stroke: black;
+    stroke-width: 3px;
+  }
+circle {
+    fill:"purple";
+}
+
+.main-tasks #line-chart-d3 {
+    align-items: center;
+}

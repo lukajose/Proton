@@ -1,0 +1,50 @@
+.timer-editor {
+    margin-left:40%;
+}
+
+.timer-editor .text-timer {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.timer-editor table tr td input{
+  padding: 10px;
+  font-size: 16px;
+  border: #FFF;
+  background-color: #FFF;
+  margin: 0 auto;
+  width: 50px;
+  border-bottom-color: #00FA9A;
+  border-bottom-style: solid;
+}
+
+.timer-countdown .timer-countdown-text {
+    margin-left:45%;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom-color: #00FA9A;
+}
+
+.timer-countdown .timer-countdown-text .cancel-button {
+  font-size: 16px;
+  background-color: rgb(3, 219, 136);
+  color: black;
+  border: 2px solid rgb(3, 219, 136);
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px 0;
+  padding:10px;
+  display: inline;
+  margin-left: 3%;
+  border-radius: 20%;
+  font-weight:800;
+  
+}
+
+.timer-countdown .timer-countdown-text .cancel-button:hover {
+    background-color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    color:white;
+  }
+

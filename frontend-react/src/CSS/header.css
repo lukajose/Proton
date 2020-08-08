@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    background: rgb(3, 219, 136);
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    width: 100%;
+    opacity: 0.8;
+    height:70px;
+    /* position:fixed; */
+  }
+
+
+  
+.navbar ul {
+  display: flex;
+  list-style:none;
+  
+}
+  
+ 
+  .navbar a {
+    color: black;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-weight: 700;
+
+    
+  }
+  
+  .navbar a:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #333131;
+  }
+
+@media (max-width: 630px) {
+  .navbar .proton {
+    display:none;
+  }
+}
